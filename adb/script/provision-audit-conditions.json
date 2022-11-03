@@ -1,0 +1,32 @@
+[ 
+  { 
+    "auditPolicyName": "APP_USER_NOT_APP_SERVER", 
+    "enableConditions": 
+    [ { 
+      "entityNames": [], 
+      "entitySelection": "INCLUDE", 
+      "entityType": "ALL_USERS", 
+      "operationStatus": "BOTH" 
+    } ], 
+    "isEnabled": true, 
+    "isPrivUsersManagedByDataSafe": false 
+  }, 
+  { 
+    "auditPolicyName": "Database Schema Changes", 
+    "enableConditions": [], 
+    "isEnabled": true, 
+    "isPrivUsersManagedByDataSafe": false 
+  }, 
+  { 
+    "auditPolicyName": "Critical Database Activity", 
+    "enableConditions": [], 
+    "isEnabled": true, 
+    "isPrivUsersManagedByDataSafe": false 
+  }, 
+  { 
+     "auditPolicyName": "Admin User Activity", 
+     "enableConditions": [], 
+     "isEnabled": true, 
+     "isPrivUsersManagedByDataSafe": false 
+  } 
+]

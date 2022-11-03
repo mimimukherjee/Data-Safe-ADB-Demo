@@ -1,0 +1,3 @@
+/* Grant Data Masking role to Data Safe service account */
+EXECUTE DS_TARGET_UTIL.GRANT_ROLE('DS$DATA_MASKING_ROLE');
+GRANT UNLIMITED TABLESPACE TO DS$ADMIN;

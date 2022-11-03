@@ -1,0 +1,1 @@
+oci data-safe target-database list --compartment-id=ocid1.compartment.oc1..aaaaaaaaugbcdlrsh4hwiy24znyhab7jac6efjfs5pvfnwsbfx2x22scqs3a  --lifecycle-state "ACTIVE" --all |jq '.data[].id' |cut -d '"' -f 2 >adb_target_id
